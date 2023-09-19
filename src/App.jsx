@@ -1,14 +1,14 @@
 import "./App.css";
-import DaisyNav from "./Components/DaisyNav/DaisyNav";
 import NavBar from "./Components/NavBar/NavBar";
 import PriceOptions from "./Components/PriceOptions/PriceOptions";
+import RenderLineChart from "./Components/RenderLineChart/RenderLineChart";
 
 function App() {
   return (
     <>
-      {/* <DaisyNav></DaisyNav> */}
       <NavBar></NavBar>
       <PriceOptions></PriceOptions>
+      <RenderLineChart></RenderLineChart>
     </>
   );
 }
